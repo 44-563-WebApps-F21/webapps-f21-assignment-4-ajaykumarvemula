@@ -1,0 +1,31 @@
+.speech {
+    font: sans-serif;
+    font-size: 16px;
+    color:black;
+    margin: 10px;
+}
+.stage-direction{
+    font-family: Garamond, serif;
+    font-size: 25px;
+    background-color:rgba(70, 0, 128, 0.212);
+}
+.stage-direction:hover {
+    background-color: black;
+    color:red;
+}
+.mrsmarchmont{
+    color: rgb(255, 240, 105);
+
+}
+.ladybastldon{
+    color:rgb(0, 130, 69);
+}
+.mason{
+    color: rgb(230, 173, 230);
+}
+.lordcaversham{
+    color:rgb(221, 23, 23);
+}
+.mabelchiltern{
+    color:maroon;
+}
