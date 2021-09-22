@@ -1,61 +1,77 @@
 .speech {
     font: sans-serif;
     font-size: 16px;
-    color:black;
+    color: black;
     margin: 10px;
 }
-.stage-direction{
+
+.stage-direction {
     font-family: Garamond, serif;
     font-size: 25px;
-    background-color:rgba(70, 0, 128, 0.212);
+    background-color: rgba(70, 0, 128, 0.212);
 }
+
 .stage-direction:hover {
     background-color: black;
-    color:red;
+    color: red;
 }
-.mrsmarchmont{
-    color: rgb(255, 240, 105);
 
+.mrsmarchmont {
+    color: rgb(255, 240, 105);
 }
-.ladybastldon{
-    color:rgb(0, 130, 69);
+
+.ladybastldon {
+    color: rgb(0, 130, 69);
 }
-.mason{
+
+.mason {
     color: rgb(230, 173, 230);
 }
-.lordcaversham{
-    color:rgb(221, 23, 23);
+
+.lordcaversham {
+    color: rgb(221, 23, 23);
 }
-.mabelchiltern{
-    color:maroon;
+
+.mabelchiltern {
+    color: maroon;
 }
+
 th, td {
     border: 2px solid;
     color: #003399;
     text-align: center;
     padding: 0.8rem;
-    margin: 25px 50px 75px 100px ;
+    margin: 25px 50px 75px 100px;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
-tr:nth-child(odd) {
-    background-color: #8F9AA5;}
-    .ladymarkby:hover{
-        text-shadow: 2px 2px 5px yellow;
-        box-shadow: 10px 10px 5px green;
-        border-bottom: 4px solid red;
-        background-color: white;
-        text-align: center;
-        color:gold;
-    }
-.ladychiltern:hover{
-        text-shadow: 2px 2px 5px yellow;
-        box-shadow: 10px 10px 5px grey;
-        border-bottom: 4px solid red;
-        background-color: white;
-        text-align: center;
-        color:midnightblue;
-    }
 
-    
+tr:nth-child(odd) {
+    background-color: #8F9AA5;
+}
+.ladymarkby{
+    color:gold;
+}
+
+.ladymarkby:hover {
+    text-shadow: 2px 2px 5px rgb(86, 116, 216);
+    box-shadow: 10px 10px 5px green;
+    border-bottom: 4px solid red;
+    background-color: white;
+    text-align: center;
+    color: gold;
+}
+.ladychiltern{
+    color: midnightblue;
+}
+
+.ladychiltern:hover {
+    text-shadow: 2px 2px 5px yellow;
+    box-shadow: 10px 10px 5px grey;
+    border-bottom: 4px solid rgb(133, 124, 124);
+    background-color: white;
+    text-align: center;
+    color: green;
+}
