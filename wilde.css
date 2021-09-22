@@ -41,9 +41,21 @@ table{
 }
 tr:nth-child(odd) {
     background-color: #8F9AA5;}
-    .ladymarkby{
-        color: gold;
+    .ladymarkby:hover{
+        text-shadow: 2px 2px 5px yellow;
+        box-shadow: 10px 10px 5px green;
+        border-bottom: 4px solid red;
+        background-color: white;
+        text-align: center;
+        color:gold;
     }
-    .ladychiltern{
+.ladychiltern:hover{
+        text-shadow: 2px 2px 5px yellow;
+        box-shadow: 10px 10px 5px grey;
+        border-bottom: 4px solid red;
+        background-color: white;
+        text-align: center;
         color:midnightblue;
     }
+
+    
