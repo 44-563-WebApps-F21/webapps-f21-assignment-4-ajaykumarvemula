@@ -5,34 +5,45 @@
     margin: 10px;
 }
 
-.stage-direction {
+.stagedirection {
     font-family: Garamond, serif;
     font-size: 25px;
-    background-color: rgba(70, 0, 128, 0.212);
+    color: black;
+    background-color: lightblue;
+}
+..name{
+    font-family: Garamond;
+    font-size: 20px;
+    color: black;
 }
 
-.stage-direction:hover {
-    background-color: black;
-    color: red;
+.stagedirection:hover {
+    background-color: blue;
+    color:chartreuse
 }
 
 .mrsmarchmont {
-    color: rgb(255, 240, 105);
+    font-size: 18px;
+    color: rgb(230, 173, 230)
 }
 
 .ladybastldon {
+    font-size: 18px;
     color: rgb(0, 130, 69);
 }
 
 .mason {
+    font-size: 18px;
     color: rgb(230, 173, 230);
 }
 
 .lordcaversham {
+    font-size: 18px;
     color: rgb(221, 23, 23);
 }
 
 .mabelchiltern {
+    font-size: 18px;
     color: maroon;
 }
 
@@ -51,8 +62,42 @@ table {
 tr:nth-child(odd) {
     background-color: #8F9AA5;
 }
-.ladymarkby{
-    color:gold;
+.name:hover{
+    text-shadow: 2px 3px 5px blueviolet;
+    border: 5px solid violet;
+    box-shadow: 11px 11px 6px mediumturquoise;
+    color: transparent;
+}
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    background-color: violet;
+}
+
+
+li{
+    float:left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: darkorange;
+}
+.active{
+    background-color: deeppink;
+}
+
+.ladymarkby {
+    color: gold;
 }
 
 .ladymarkby:hover {
@@ -63,7 +108,8 @@ tr:nth-child(odd) {
     text-align: center;
     color: gold;
 }
-.ladychiltern{
+
+.ladychiltern {
     color: midnightblue;
 }
 
